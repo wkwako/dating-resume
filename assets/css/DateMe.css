@@ -40,7 +40,7 @@ h4 {
 }
 
 .landscape-picture {
-    background-image: url("Me/landscape1.jpg");
+    background-image: url("../../images/Me/landscape1.jpg");
     background-size: cover;
     height: 300px;
 }
