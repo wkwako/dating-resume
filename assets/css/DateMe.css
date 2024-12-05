@@ -9,12 +9,26 @@ body {
     text-align: center;
     top: 10px;
     letter-spacing: 10px;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: Garamond;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 #description, #dating-resume, #testimonials {
     font-size: 16px;
 }
+
+#description, #dating-resume, #testimonials p {
+    font-family: Georgia;
+}
+
+
 
 .section-headers {
     background-color: seagreen;
@@ -33,7 +47,6 @@ h4 {
     display: inline-block;
     list-style: none;
     width: 300px;
-    height: 300px;
     padding: 0px 0px;
     margin: 0 0 100px 0;
     vertical-align: top;
@@ -43,8 +56,20 @@ h4 {
     text-align: center;   
 }
 
-#testimonials figcaption {
-    padding: 10px auto;
+#jill {
+    height: 300px;
+}
+
+#jenna {
+    height: 230px;
+}
+
+#travis {
+    height: 250px;
+}
+
+#therapist {
+    height: 330px;
 }
 
 .landscape-picture {
