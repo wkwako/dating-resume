@@ -1,5 +1,5 @@
 body {
-    /* margin: 0 30%; */
+    margin: 0 30%;
     padding: 10px;
     background-image: linear-gradient(to left, rgba(30, 30, 30, 0.432), rgba(74, 74, 74, 0.964));
     background-size: cover;
@@ -8,8 +8,12 @@ body {
 .name {
     text-align: center;
     top: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 10px;
     font-size: 20px;
+}
+
+#description, #dating-resume, #testimonials {
+    font-size: 16px;
 }
 
 .section-headers {
@@ -37,6 +41,10 @@ h4 {
 
 #testimonials h4 {
     text-align: center;   
+}
+
+#testimonials figcaption {
+    padding: 10px auto;
 }
 
 .landscape-picture {
@@ -99,7 +107,7 @@ h4 {
 #collage-two{
     z-index:1;
     right: 25px;
-    bottom: 35px;
+    bottom: 25px;
     transform:rotate(5deg);
     -o-transform:rotate(5deg);
     -moz-transform:rotate(5deg);
@@ -111,6 +119,7 @@ h4 {
 #collage-three{
     z-index:2;
     right: 20px;
+    bottom: 30px;
     transform:rotate(-5deg);
     -o-transform:rotate(-5deg);
     -moz-transform:rotate(-5deg);
@@ -121,7 +130,7 @@ h4 {
 
 #collage-four{
     z-index:2;
-    bottom: 15px;
+    bottom: 45px;
     transform:rotate(0deg);
     -o-transform:rotate(0deg);
     -moz-transform:rotate(0deg);
@@ -132,7 +141,7 @@ h4 {
 
 #collage-five {
     z-index:2;
-    bottom: 20px;
+    bottom: 50px;
     right: 5px;
     transform:rotate(-5deg);
     -o-transform:rotate(-5deg);
@@ -144,7 +153,7 @@ h4 {
 
 #collage-six{
     z-index:1;
-    bottom: 25px;
+    bottom: 70px;
     right: 5px;
     transform:rotate(6deg);
     -o-transform:rotate(6deg);
@@ -156,7 +165,7 @@ h4 {
 
 #collage-seven{
     z-index:2;
-    bottom: 50px;
+    bottom: 80px;
     right: 50px;
     transform:rotate(-4deg);
     -o-transform:rotate(-4deg);
@@ -168,7 +177,7 @@ h4 {
 
 #collage-eight{
     z-index:2;
-    bottom: 10px;
+    bottom: 80px;
     right: 50px;
     transform:rotate(3deg);
     -o-transform:rotate(3deg);
