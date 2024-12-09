@@ -5,6 +5,11 @@ body {
     background-size: cover;
 }
 
+@media only screen and (min-width: 1000px) {
+    /* For large screens: */
+    #body {margin-right: 30%; margin-left: 30%}
+  }
+
 .name {
     text-align: center;
     top: 10px;
